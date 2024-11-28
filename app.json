@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "my-code",
+    "slug": "my-code",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.superfamily.mycode"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.superfamily.mycode"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2ea468c-ccc9-4a11-88f4-3b6a3d155edd"
+      },
+      "googleClientId":"395059583256-aa4agj5q0t0i7pcng2np3qdmjr8a6evh.apps.googleusercontent.com"
+    },
+    "scheme":"mycode"
+  }
+}
